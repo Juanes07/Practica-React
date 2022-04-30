@@ -10,7 +10,8 @@ Practica de ReactJs, implementando mejoras a un proyecto base
 
 # Separacion componente botones
 
-![icons](https://user-images.githubusercontent.com/96356792/166123634-b7329724-1b4c-4c73-96b1-57ade9f4532d.png)
+
+![botones y titulo](https://user-images.githubusercontent.com/96356792/166123769-135c39cd-63fc-453a-b19e-4da590ff8cf9.png)
 
 # Cambio fondo
 
