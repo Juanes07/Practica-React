@@ -1,6 +1,7 @@
 import React from "react";
 import { TodoContext } from "../TodoContext";
 import FormButton from "./FormButton";
+import FormTitle from "./FormTitle";
 import "./TodoForm.css";
 
 function TodoForm() {
@@ -18,7 +19,7 @@ function TodoForm() {
 
   return (
     <form onSubmit={onSubmit}>
-      <label>Escribe tu nuevo ToDo</label>
+      <FormTitle/>
       <textarea
         value={newTodoValue}
         onChange={onChange}
