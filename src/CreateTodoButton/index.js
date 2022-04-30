@@ -1,5 +1,7 @@
 import React from 'react';
 import './CreateTodoButton.css';
+import { IoIosAddCircleOutline } from "react-icons/io";
+
 
 function CreateTodoButton(props) {
   const onClickButton = () => {
@@ -11,7 +13,7 @@ function CreateTodoButton(props) {
       className="CreateTodoButton"
       onClick={onClickButton}
     >
-      +
+      <IoIosAddCircleOutline/>
     </button>
   );
 }
