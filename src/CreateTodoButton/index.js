@@ -1,19 +1,15 @@
-import React from 'react';
-import './CreateTodoButton.css';
+import React from "react";
+import "./CreateTodoButton.css";
 import { IoIosAddCircleOutline } from "react-icons/io";
-
 
 function CreateTodoButton(props) {
   const onClickButton = () => {
-    props.setOpenModal(prevState => !prevState);
+    props.setOpenModal((prevState) => !prevState);
   };
 
   return (
-    <button
-      className="CreateTodoButton"
-      onClick={onClickButton}
-    >
-      <IoIosAddCircleOutline/>
+    <button className="CreateTodoButton" onClick={onClickButton}>
+      <IoIosAddCircleOutline />
     </button>
   );
 }
